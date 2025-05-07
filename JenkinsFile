@@ -9,7 +9,7 @@ pipeline {
         }
         stage('2') {
             steps {
-                sleep(120)
+                sleep(60)
             }
         }
         stage('3')
