@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('1') {
             steps {
-                echo 'test 1'
+                echo ' test 1'
             }
         }
         stage('2') {
             steps {
-                echo 'test 2'
+                sleep(30)
             }
         }
         stage('3')
